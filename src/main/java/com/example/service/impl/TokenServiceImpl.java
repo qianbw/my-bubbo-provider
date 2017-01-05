@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.service.TokenService;
 
-@Service("com.example.service.TokenService")
+@Service("myTokenService")
 public class TokenServiceImpl implements TokenService {
 
 	private static final Logger LOGGER = LoggerFactory
