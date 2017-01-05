@@ -19,6 +19,8 @@ public class TokenServiceImpl implements TokenService {
 
 	@Override
 	public String getSign() {
-		return String.valueOf(System.currentTimeMillis());
+		String sign = String.valueOf(System.currentTimeMillis());
+		LOGGER.info(sign);
+		return sign;
 	}
 }
