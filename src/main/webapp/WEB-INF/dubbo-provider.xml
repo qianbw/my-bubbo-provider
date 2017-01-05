@@ -16,6 +16,6 @@
 	<dubbo:protocol name="dubbo" port="20880" />
 		
 	<!-- 用户服务接口 -->
-	<dubbo:service interface="wusc.edu.facade.user.service.PmsUserFacade" ref="pmsUserFacade" />
+	<dubbo:service interface="TokenService" ref="com.example.service.TokenService" />
 
 </beans>  
